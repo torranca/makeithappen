@@ -1,0 +1,87 @@
+
+/*********************START SCREEN******************/
+
+/*background*/
+background-image: url(background.png) no-repeat;
+background-color: #06274D;
+
+/*big orange button -- start, finish and next*/
+background: #FFA35F;
+box-shadow: 0 6px 14px 0 rgba(71,77,83,0.29);
+border-radius: 8px;
+
+/*big blue button text*/
+font-family: OpenSans-Bold;
+font-size: 38px;
+color: #FFFFFF;
+text-transform: uppercase;
+
+/*********************MAIN GAME SCREEN******************/
+
+/*level count*/
+font-family: OpenSans-Bold;
+font-size: 25px;
+color: #C4FFDD;
+
+/*word prompt box and question*/
+background: #FFFFFF;
+border: 3px solid #FFA35F;
+border-radius: 6px;
+font-family: OpenSans-Semibold; 
+font-size: 16x; 
+color: #06274D;
+
+/* word prompt box - answer */
+color: #FFA35F;
+text-transform: uppercase;
+font-size: 18px;
+font-family: OpenSans-ExtraBold; 
+
+/*answer buttons*/
+background-color: #06274D;
+border-color: #FFA35F;
+border-style: solid;
+border-width: 5px;
+border-radius: 6px;
+box-shadow: 0 6px 14px 0 rgba(71,77,83,0.29);
+font-family: OpenSans;
+text-transform: uppercase;
+font-size: 18px;
+color: #FFFFFF;
+padding: 5px;
+
+/*answer option selected*/
+background-color: #FFA35F;
+
+/*answer option success*/
+background-color: #00C49A;
+border-style: none;
+
+/*answer option failure*/
+background-color: #DA400E;
+border-style: none;
+
+/********************* FINISH ******************/
+
+/* white title: */
+background: #FFA35F;
+box-shadow: 0 6px 14px 0 rgba(207,207,207,0.50);
+border-radius: 8px;
+
+/* You got + Correct */
+font-family: OpenSans-Bold;
+font-size: 25px;
+color: #FFA35F;
+text-align: center;
+
+/* correct number count */
+font-family: OpenSans-Bold;
+font-size: 164px;
+color: #FFA35F;
+text-align: center;
+
+
+
+
+
+

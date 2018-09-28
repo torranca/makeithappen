@@ -1,0 +1,14 @@
+{
+  "name": "ABC 123",
+  "icons": [
+    {
+      "src": "./assets/icon/Icon.png",
+      "sizes": "40x40",
+      "type": "image/png",
+      "density": 1.0
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}

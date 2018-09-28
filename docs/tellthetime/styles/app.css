@@ -1,0 +1,245 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width:481px){
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    body {
+        background: #f5f5f5 url('../assets/iPhone.png') no-repeat top center;
+    }
+    .container {
+        height: 667px;
+        width: 372px;
+        padding: 111px 15px 100px 14px;
+    }
+}
+@media (max-width:480px){
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container {
+        padding: 5px 5px 5px 5px;
+    }
+}
+.btn {border:none;}
+/************ OVERRIDES**************/
+#tellTheTimeInputGroup a.btn-success:hover, #start a.btn-success:hover, #finish a.btn-success:hover {
+    background-color: #2F6CB4;
+}
+.backButton {background:none;}
+
+
+/*********************START SCREEN******************/
+#start {
+    background-color: #4788ed;
+}
+
+.startScreen {
+    color: #808080;
+    text-align: center;
+    background:none;
+    min-height: 612px;
+    border-radius: 0;
+    position: relative;
+    background:  url(../assets/clock_start_screen.png) no-repeat 30px 60px;
+    background-size: 124%;
+}
+
+/*big blue button*/
+.startButton {
+    background: #2FA7FD;
+    box-shadow: 0 6px 14px 0 rgba(71,77,83,0.29);
+    border-radius: 8px;
+    border:none;
+    padding: .5rem 4rem;
+	position: absolute;
+    bottom: 15%;
+    left: 50px;
+
+}
+/*big blue button text*/
+.startButtonText {
+    font-family: 'Open sans', sans-serif;
+    font-size: 38px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/*********************MAIN GAME SCREEN******************/
+.mainScreen {
+    position: relative;
+    background: #C5F3EF;
+    min-height: 612px;
+    background-size:270%;
+    border-radius: 0;
+	background-color: #4788ed;
+}
+
+#clock img {width: 75%;}
+/*level count*/
+
+.levelCount {
+    font-family: 'Open sans', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.backButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+#tellTheTimeResultGroup {
+	margin-left: 34px;
+}
+.tellTheTimeGroup {
+    position: absolute;
+    bottom:15%;
+    left: 0;
+    text-align: center;
+}
+.tellTheTimeGroup h2 {
+    font-size: 3rem;
+}
+.question_wrap {
+    border-radius: 8px;
+    padding: 6px 0;
+	height: 350px;
+	text-align: center;
+}
+
+.question_wrap .question_text {
+    padding: 6px 0;
+    margin-bottom: 30px;
+	font-size: 1.3rem;
+	padding: 65px;
+	font-family: 'Open sans', sans-serif;
+	color: #ffffff 
+}
+.question_wrap .gamequestion {
+    background: #2F6CB4;
+    border-radius: 8px;
+    width: 76px;
+    height: 76px;
+    font-family: 'Open sans', sans-serif;
+    color: #3b3b3b;
+    margin: 0 7px;
+    border:none;
+}
+
+.question_wrap .gameClock {
+	margin-left: 35px;
+	margin-top: 62px;
+	display: block;
+}
+
+.question_options .gameanswer {
+    background: #FFFFFF;
+    box-shadow: 0 3px 9px 0 rgba(27,37,62,0.32);
+    border-radius: 8px;
+    width: 140px;
+    height: 76px;
+    font-family: 'Open sans', sans-serif;
+    color: #3b3b3b;
+    margin: 0 7px;
+}
+
+.question_options .lastanswer {
+    margin-left: 12px;;
+    margin-top: 20px;;
+}
+
+
+/********************* CORRECT ******************/
+
+/* background */
+.correctButton {
+    background: #50E585;
+    box-shadow: 0 6px 14px 0 rgba(27, 62, 28, 0.50);
+    border-radius: 8px;
+}
+.btn-success:hover {
+    background-color: #24AA54;
+}
+
+.tellTheTimeResult {
+    font-family: 'Open sans', sans-serif;
+    text-transform: uppercase;
+    background: #50E585;
+    box-shadow: 0 6px 14px 0 rgba(27,62,28,0.50);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 2.3rem;
+    padding: .7rem 1.6rem;
+    height: 76px;
+}
+/* correct text */
+.tellTheTimeResultButtonText {
+    font-family: 'Open sans', sans-serif;
+    font-size: 38px;
+    color: #FFFFFF;
+    background: #50E585 url(../assets/next.svg) no-repeat 17px 36px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 0 6px 14px 0 rgba(27,62,28,0.50);
+    height: 76px;
+}
+
+/* next */
+.nextButtonText {
+    font-family: 'Open sans', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    position: relative;
+    top: -25px;
+}
+
+/********************* INCORRECT ******************/
+/* incorrect text: */
+
+.btn-danger {
+background-color: #FF1856;
+font-size: 1.8rem;
+line-height: 3.4rem;
+}
+.incorrectButtonText {
+    font-family: 'Open sans', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+
+/********************* FINISH ******************/
+
+/* white title: */
+.finish {
+    background-color: #fff;
+    min-height: 612px;
+    text-align: center;
+    border-radius: 0;
+    position: relative;
+}
+
+
+/* You got + Correct */
+.finishMessage {
+    font-family: 'Open sans', sans-serif;
+    font-size: 25px;
+    color: #4A90E2;
+    text-align: center;
+}
+
+/* correct number count */
+.correctNumberCount {
+    font-family: 'Open sans', sans-serif;
+    font-size: 164px;
+    color: #2FA7FD;
+    text-align: center;
+}
