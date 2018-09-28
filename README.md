@@ -4,7 +4,7 @@ Make it happen is an application design competition being piloted across 4 prima
 
 ## Why?
 
-As part of J.P.Morgans School Outreach programme we intend to enable pupils to think, design and (if they win) build an application with the help of our expert engineers.
+We intend to enable pupils to think, design and (if they win) build an application with the help of our expert engineers.
 
 Our goal is to reach all pupils from P1-P7 and let them start their digital design thinking.
 
