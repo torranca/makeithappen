@@ -212,7 +212,7 @@ header {
 	box-shadow: 0 0 14px 0 rgba(0,0,0,0.05);
 	border-radius: 12px;
 	padding: 20px;
-	width: 47%;
+	width: 35%;
 	margin-right: 20px;
 	display: inline-block;
 	vertical-align: top;
@@ -222,7 +222,7 @@ header {
 	font-size: 30px;
 	padding-bottom: 20px;
 }
-.app_blocks {padding:10px; margin-bottom: 20px;}
+.app_blocks {padding:10px; margin-bottom: 20px; width: 47%;}
 .app_blocks img {
 	border-radius: 10px;
 	width: 70;
