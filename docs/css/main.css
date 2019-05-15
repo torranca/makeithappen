@@ -288,8 +288,8 @@ header {
 
   display: block;
   color: #000;
-  font-family: 'letters', Arial, sans-serif;
-  font-size:40px;
+  font-family: Arial, sans-serif;
+  font-size:30px;
   padding-left: 50px;
 }
 
@@ -325,6 +325,11 @@ header {
 .toggle:checked + .title:before {
   transform: rotate(90deg) !important;
 }
+
+/*Quick hack to get the 2019 winners to always display*/
+.display_hack .content {max-height: 890px;}
+.display_hack .title { padding-left: 0; }
+.display_hack .title:after, .display_hack .title:before { display: none; }
 
 
 
