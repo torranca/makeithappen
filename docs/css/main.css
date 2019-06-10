@@ -66,7 +66,9 @@ a {color: #D3251C;}
     font-style: normal;
 
 }
-
+hr {
+	margin-top: 60px;
+}
 header {
 	padding: 50px 0 40px 0;
 }
@@ -332,7 +334,19 @@ header {
 .display_hack .title:after, .display_hack .title:before { display: none; }
 
 
+/*Get Involved*/
 
+#get_involved h3 {margin: 30px 0 20px 0;}
+#get_involved .app_blocks {padding:30px;}
+#get_involved .app_blocks h3 {margin-top: 0;}
+#get_involved .app_blocks a {padding: 10px; background-color: #00000025; border-radius: 5px;}
+#get_involved .app_blocks a:hover {background-color: #00000010;}
+
+.gi_teachers {	background-color: #ff392f; color: #ffffff;}
+.gi_teachers h3, .gi_teachers a  {	color: #ffffff;}
+
+.gi_volunteers { background-color: #ffd334; }
+.gi_volunteers a { color: #000000; }
 
 
 
