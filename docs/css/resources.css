@@ -1,0 +1,14 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 80%;
+}
+
+.logo {
+	width: 170px;
+	height: 100px;
+	background: transparent url("../images/logo.png") no-repeat left top;
+	background-size: 100% 100%;
+}
