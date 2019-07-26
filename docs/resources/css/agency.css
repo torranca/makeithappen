@@ -538,6 +538,20 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
+.app_blocks {padding:10px; margin-bottom: 20px; width: 47%;}
+.app_blocks img {
+	border-radius: 10px;
+	width: 70;
+	height: 70px;
+	border:2px solid #f5f5f5;
+	float: left;
+}
+.app_blocks .app_content { float: left; padding-left: 10px; }
+
+.app_blocks h3 {font-size: 30px;}
+.app_blocks h4 {font-size: 20px;}
+.content .app_content p { padding: 0; }
+
 
 .timeline {
   position: relative;
