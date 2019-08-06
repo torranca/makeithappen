@@ -538,7 +538,7 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
-.app_blocks {padding:10px; margin-bottom: 20px; width: 47%;}
+.app_blocks {padding:10px; margin-bottom: 20px; }
 .app_blocks img {
 	border-radius: 10px;
 	width: 70;
