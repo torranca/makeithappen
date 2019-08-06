@@ -14,7 +14,7 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #FF3A2F;
 }
 
 a:hover {
@@ -31,8 +31,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Fredoka One', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  letter-spacing: 0.05em;
 }
 
 .page-section {
@@ -83,7 +83,7 @@ img::-moz-selection {
 }
 
 .btn {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
 }
 
@@ -93,13 +93,12 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #FF3A2F;
+  border:none;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #D8281F !important;
   color: white;
 }
 
@@ -138,11 +137,12 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #ffffff;
+  border-bottom: 4px solid #ffffff;
 }
 
 @media (min-width: 992px) {
@@ -165,7 +165,8 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #FF3A2F;
+    box-shadow: 0px 6px 20px -9px rgba(0,0,0,0.35);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -388,6 +389,7 @@ header.masthead .intro-text .intro-heading {
 #inspired .inspired-item {
   right: 0;
   margin: 0 0 15px;
+
 }
 
 #inspired .inspired-item .inspired-link {
@@ -540,7 +542,7 @@ header.masthead .intro-text .intro-heading {
 
 .app_blocks {padding:10px; margin-bottom: 20px; }
 .app_blocks img {
-	border-radius: 10px;
+	border-radius: 21px;
 	width: 70;
 	height: 70px;
 	border:2px solid #f5f5f5;
@@ -618,7 +620,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #FF3A2F;
 }
 
 .timeline > li .timeline-image h4 {
@@ -857,5 +859,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #FF3A2F;
 }
