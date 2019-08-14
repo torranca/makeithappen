@@ -210,7 +210,6 @@ img::-moz-selection {
 header.masthead {
   text-align: left;
   background-color: #fff;
-  background-image: url("../img/banner.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -239,6 +238,11 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
+    header.masthead {
+      background-image: url("../img/banner.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
