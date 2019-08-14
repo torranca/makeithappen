@@ -424,6 +424,9 @@ header.masthead .intro-text .intro-heading {
 }
 
 
+.inspired-item-outer {
+  margin: 20px 0px;
+}
 
 #inspired .inspired-item, #portfolio .portfolio-item {
   right: 0;
@@ -432,6 +435,8 @@ header.masthead .intro-text .intro-heading {
   box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
   margin: 10px;
+  height: 100%;
+  width: 100%;
 }
 #inspired .inspired-item a {
   padding: 10px 20px;
@@ -588,12 +593,19 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
+
+.app_blocks_outer {
+  margin: 20px 0px;
+}
 .app_blocks {
-  padding:15px; margin: 20px 10px; 
+  padding:15px; margin: 20px 10px;
 background: #FFFFFF;
 box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.05);
 border-radius: 20px;
+height: 100%;
+width: 100%;
  }
+
 .app_blocks img {
 	border-radius: 21px;
 	width: 70;
