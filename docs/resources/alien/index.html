@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45806836-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-45806836-3');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta name="description" content="Alien Active Spelling">
+    <meta name="author" content="J.P. Morgan Chase">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" type="image/png" href="./assets/icon/Icon.png">
+
+    <link rel="apple-touch-icon" type="image/png" href="./assets/icon/Icon.png">
+
+    <title>Alien Active Spelling</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./styles/app.css" />
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div id="start">
+        <div class="jumbotron startScreen">
+            <h1>Alien Active Spelling</h1>
+            <a id="startButton" class="btn btn-lg btn-success startButton" href="#" role="button"><span class="startButtonText">Start</span></a>
+        </div>
+    </div>
+
+    <div id="game" style="display: none">
+        <div class="jumbotron mainScreen" id="mainScreen">
+            <div>
+                <button type="button" class="btn btn-default navbar-btn pull-left backButton" id="backButton">
+                    <img src="assets/back.svg" height="20"/>
+                </button>
+                <div>
+                    <span id="score" class="levelCount"></span>
+                </div>
+            </div>
+
+            <div id="spellInputGroup" class="spellGroup">
+                <div class="question_wrap">
+                    <button type="button" class="btn btn-default gamequestion" id="qt0">
+                    </button>
+                    </div>
+                    <div class="question_options">
+                    <button type="button" class="btn btn-success gameanswer" id="at0"></button>
+                    <button type="button" class="btn btn-success gameanswer" id="at1">  </button>
+                    <button type="button" class="btn btn-success gameanswer" id="at2"></button>
+                </div>
+            </div>
+            <div id="spellCheckGroup" style="display: none" class="spellGroup">
+                <div class="question_wrap">
+                     <button type="button" class="btn btn-default gamequestion" id="qr0"></button>
+                </div>
+                <div class="question_responses">
+                    <button type="button" class="btn btn-default gameresponse" id="ar0"></button>
+                    <button type="button" class="btn btn-default gameresponse" id="ar1">  </button>
+                    <button type="button" class="btn btn-default gameresponse" id="ar2"></button>
+                </div>
+
+                <div class="btn btn-lg spellResult" id="spellResult"></div>            
+                <a id="nextButton" class="btn btn-lg btn-success spellResultButtonText" href="#" role="button"><span class="nextButtonText">NEXT</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="finish" style="display: none">
+        <div class="jumbotron finish">
+            <h1 class="finishMessage">Well Done!</h1><h1 class="finishMessage">You got</h1><h2 id="finalscore" class="correctNumberCount"></h2><h1 class="finishMessage">Correct</h1>
+            <a id="finishButton" class="btn btn-lg btn-success finishButton" href="#" role="button"><span class="finishButtonText">Finish</span></a>
+        </div>
+    </div>
+
+</div> <!-- /container -->
+
+<script src="../js/jquery-3.3.1.slim.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="scripts/app.js"></script>
+
+</body>
+</html>
+

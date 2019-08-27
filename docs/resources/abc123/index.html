@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45806836-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-45806836-3');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta name="description" content="ABC 123">
+    <meta name="author" content="J.P. Morgan Chase">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" type="image/png" href="./assets/icon/Icon.png">
+
+    <link rel="apple-touch-icon" type="image/png" href="./assets/icon/Icon.png">
+
+    <title>ABC 123</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./styles/app.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:bold" rel="stylesheet" />
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div id="start">
+        <div class="startScreen">
+            <div class="startABC">
+                <a id="startABCButton" class="btn btn-lg btn-success startABCButton" href="#" role="button"><span class="startButtonText">Play ABC</span></a>
+            </div>
+            <div class="start123">
+                <a id="start123Button" class="btn btn-lg btn-success start123Button" href="#" role="button"><span class="startButtonText">Play 123</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="game" style="display: none">
+        <div class="mainScreen" id="mainScreen">
+            <div>
+                <button type="button" class="btn btn-default navbar-btn pull-left backButton" id="backButton">
+                    <img src="assets/back.svg" height="20"/>
+                </button>
+                <div>
+                    <span id="score" class="levelCount"></span>
+                </div>
+            </div>
+
+            <div id="spellInputGroup" class="spellGroup">
+
+                <div class="question_wrap">
+                    <button type="button" class="btn btn-success gamequestion" id="q0">
+                        <h2 id="qt0">C</h2>
+                    </button>
+                    <button type="button" class="btn btn-success gamequestion" id="q1">
+                        <h2 id="qt1">_</h2>
+                    </button>
+                    <button type="button" class="btn btn-success gamequestion" id="q2">
+                        <h2 id="qt2">T</h2>
+                    </button>
+                    </div><div class="question_options">
+
+                    <button type="button" class="btn btn-default gameanswer" id="a0">
+                        <h2 id="at0">E</h2>
+                    </button>
+                    <button type="button" class="btn btn-default gameanswer" id="a1">
+                        <h2 id="at1">I</h2>
+                    </button>
+                    <button type="button" class="btn btn-default gameanswer" id="a2">
+                        <h2 id="at2">A</h2>
+                    </button>
+
+                </div>
+            </div>
+            <div id="numberInputGroup" class="spellGroup">
+
+                <div class="question_wrap">
+                    <button type="button" class="btn numberquestion" id="n0">
+
+                    </button>
+                    <button type="button" class="btn  numberquestion plus" id="n1">
+                        <h2>+</h2>
+                    </button>
+                    <button type="button" class="btn  numberquestion" id="n2">
+
+                    </button>
+                </div>
+                <div class="question_options">
+
+                <button type="button" class="btn  numberanswer" id="na0">
+
+                </button>
+                <button type="button" class="btn  numberanswer" id="na1">
+
+                </button>
+                <button type="button" class="btn  numberanswer " id="na2">
+
+                </button>
+
+            </div>
+            </div>
+            <div id="spellCheckGroup" style="display: none" class="spellGroup">
+                <div class="btn btn-lg spellResult" id="spellResult"></div><a id="nextButton" class="btn btn-lg btn-success spellResultButtonText" href="#" role="button"><span class="nextButtonText">NEXT</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="finish" style="display: none">
+        <div class="finish" id="finishScreen">
+            <h1 class="finishMessage">Well Done!</h1><h1 class="finishMessage">You got</h1><h2 id="finalscore" class="correctNumberCount"></h2><h1 class="finishMessage">Correct</h1>
+            <a id="finishButton" class="btn btn-lg btn-success startButton" href="#" role="button"><span class="startButtonText">Finish</span></a>
+        </div>
+    </div>
+
+</div> <!-- /container -->
+
+<script src="../js/jquery-3.3.1.slim.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="scripts/app.js"></script>
+
+</body>
+</html>
+

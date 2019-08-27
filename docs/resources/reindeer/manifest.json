@@ -1,0 +1,14 @@
+{
+  "name": "Reindeer Rainbows",
+  "icons": [
+    {
+      "src": "./assets/icon/icon_40pt.png",
+      "sizes": "40x40",
+      "type": "image/png",
+      "density": 1.0
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
