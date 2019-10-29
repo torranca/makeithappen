@@ -593,6 +593,188 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
+#inspired .inspired-item, #portfolio .portfolio-item {
+  right: 0;
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  margin: 10px;
+  height: 100%;
+  width: 100%;
+}
+#inspired .inspired-item a {
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  float: left;
+}
+
+#inspired .inspired-item .inspired-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#inspired .inspired-item .inspired-link .inspired-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: rgba(254, 209, 54, 0.9);
+}
+
+#inspired .inspired-item .inspired-link .inspired-hover:hover {
+  opacity: 1;
+}
+
+#inspired .inspired-item .inspired-link .inspired-hover .inspired-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+#inspired .inspired-item .inspired-link .inspired-hover .inspired-hover-content i {
+  margin-top: -12px;
+}
+
+#inspired .inspired-item .inspired-link .inspired-hover .inspired-hover-content h3,
+#inspired .inspired-item .inspired-link .inspired-hover .inspired-hover-content h4 {
+  margin: 0;
+}
+
+#inspired .inspired-item .inspired-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#inspired .inspired-item .inspired-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#inspired .inspired-item .inspired-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#inspired * {
+  z-index: 2;
+}
+
+@media (min-width: 767px) {
+  #inspired .inspired-item {
+    margin: 10px;
+  }
+}
+
+
+
+
+
+
+#sponsors .inspired-item, #sponsors .portfolio-item {
+  right: 0;
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  margin: 10px;
+  height: 100%;
+  width: 100%;
+}
+#sponsors .inspired-item a {
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  float: left;
+}
+
+#sponsors .inspired-item .inspired-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#sponsors .inspired-item .inspired-link .inspired-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: rgba(254, 209, 54, 0.9);
+}
+
+#sponsors .inspired-item .inspired-link .inspired-hover:hover {
+  opacity: 1;
+}
+
+#sponsors .inspired-item .inspired-link .inspired-hover .inspired-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+#sponsors .inspired-item .inspired-link .inspired-hover .inspired-hover-content i {
+  margin-top: -12px;
+}
+
+#sponsors .inspired-item .inspired-link .inspired-hover .inspired-hover-content h3,
+#sponsors .inspired-item .inspired-link .inspired-hover .inspired-hover-content h4 {
+  margin: 0;
+}
+
+#sponsors .inspired-item .inspired-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#sponsors .inspired-item .inspired-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#sponsors .inspired-item .inspired-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#sponsors * {
+  z-index: 2;
+}
+
+@media (min-width: 767px) {
+  #sponsors .inspired-item {
+    margin: 10px;
+  }
+}
 
 .app_blocks_outer {
   margin: 20px 0px;
