@@ -776,6 +776,104 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+
+
+
+
+
+#events .inspired-item, #events .portfolio-item {
+  right: 0;
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  margin: 10px;
+  height: 100%;
+  width: 100%;
+}
+#events .inspired-item a {
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  float: left;
+}
+
+#events .inspired-item .inspired-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#events .inspired-item .inspired-link .inspired-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: rgba(254, 209, 54, 0.9);
+}
+
+#events .inspired-item .inspired-link .inspired-hover:hover {
+  opacity: 1;
+}
+
+#events .inspired-item .inspired-link .inspired-hover .inspired-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+#events .inspired-item .inspired-link .inspired-hover .inspired-hover-content i {
+  margin-top: -12px;
+}
+
+#events .inspired-item .inspired-link .inspired-hover .inspired-hover-content h3,
+#events .inspired-item .inspired-link .inspired-hover .inspired-hover-content h4 {
+  margin: 0;
+}
+
+#events .inspired-item .inspired-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#events .inspired-item .inspired-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#events .inspired-item .inspired-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#events * {
+  z-index: 2;
+}
+
+@media (min-width: 767px) {
+  #events .inspired-item {
+    margin: 10px;
+  }
+}
+
+
+
+
+
 .app_blocks_outer {
   margin: 20px 0px;
 }
